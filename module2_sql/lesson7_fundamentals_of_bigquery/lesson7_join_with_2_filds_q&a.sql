@@ -58,7 +58,7 @@ with facebook_google as (
 select
 	fg_data.ad_month,
 	fg_data.utm_campaign, 
-			fg_data.spend,
+	fg_data.spend,
 	fg_data.impressions,
 	fg_data.reach,
 	fg_data.clicks,
