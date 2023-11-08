@@ -25,7 +25,7 @@ monthly_stats as (
 		sum(spend) as total_spend, 
 		sum(clicks) as total_clicks,
 		case 
-			when sum(clicks) > 0 then 1000*sum(spend)/sum(clicks)
+			when sum(clicks) > 0 then sum(spend)/sum(clicks)
 		end as cpc 
 	from all_ads_data aad 
 	group by 1,2
