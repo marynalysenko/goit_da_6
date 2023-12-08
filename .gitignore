@@ -1,0 +1,46 @@
+# Файли середовища Python
+venv/
+*.pyc
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Файли розробки
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.pyd
+*.save
+*.bak
+*.swp
+*.dmp
+
+# macOS специфічні файли
+.DS_Store
+**/.DS_Store
+
+# Windows специфічні файли
+Thumbs.db
+ehthumbs.db
+
+# Файли SQLite, якщо ви їх використовуєте
+*.sqlite
+*.sqlite3
+
+# Файли середовища та конфігурації IDE
+.vscode/
+.idea/
+
+# Папки та файли, що створюються під час збирання Python проектів
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Файли конфігурації, що містять чутливу інформацію
+*.env
+*.ini
+config.py
