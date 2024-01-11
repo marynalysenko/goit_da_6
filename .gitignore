@@ -46,3 +46,6 @@ dist/
 *.env
 *.ini
 config.py
+
+# приклад домашки 
+lesson_4_pandas_hw.ipynb
