@@ -19,6 +19,22 @@ __pycache__/
 *.dmp
 *.csv 
 *.xlsx
+*.pdf
+*.docx
+*.doc
+*.xls
+*.pptx
+*.ppt
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+*.pdf
+*.tif
+*.txt
+
 
 # macOS специфічні файли
 .DS_Store
